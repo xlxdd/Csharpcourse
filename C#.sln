@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "numsort", "numsort\numsort.csproj", "{3FB70AC8-069E-4420-B151-C5728BF6A3AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cal", "cal\cal.csproj", "{39682015-7271-44AE-A463-6C51ED387F1E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FB70AC8-069E-4420-B151-C5728BF6A3AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB70AC8-069E-4420-B151-C5728BF6A3AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB70AC8-069E-4420-B151-C5728BF6A3AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB70AC8-069E-4420-B151-C5728BF6A3AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39682015-7271-44AE-A463-6C51ED387F1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39682015-7271-44AE-A463-6C51ED387F1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39682015-7271-44AE-A463-6C51ED387F1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39682015-7271-44AE-A463-6C51ED387F1E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {547A6D81-396F-401A-8B9D-EB0DCAF091BB}
+	EndGlobalSection
+EndGlobal
