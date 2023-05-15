@@ -93,7 +93,7 @@ namespace cal
         //ÍË¸ñ
         private void del_Click(object sender, EventArgs e)
         {
-            string c = enter.Text.Substring(enter.Text.Length - 1);
+            string c = enter.Text.Substring(0,enter.Text.Length - 1);
             switch (status)
             {
                 case 0:
@@ -104,7 +104,7 @@ namespace cal
                     }
                     else
                     {
-                        enter.Text = enter.Text.Substring(enter.Text.Length - 1);
+                        enter.Text = enter.Text.Substring(0,enter.Text.Length - 1);
                         if (c == ".")
                         {
                             havedot = false;
@@ -221,7 +221,7 @@ namespace cal
                     label1.Text = op1.ToString();
                     if (label1.Text.Length > 20)
                     {
-                        label1.Text = label1.Text.Substring(20);
+                        label1.Text = label1.Text.Substring(0,20);
                     }
                     label2.Text = op;
                     enter.Text = "0";
@@ -266,7 +266,7 @@ namespace cal
                     label1.Text = op1.ToString();
                     if (label1.Text.Length > 20)
                     {
-                        label1.Text = label1.Text.Substring(20);
+                        label1.Text = label1.Text.Substring(0,20);
                     }
                     label2.Text = op;
                     enter.Text = "0";
@@ -287,7 +287,7 @@ namespace cal
                     label1.Text = op1.ToString();
                     if (label1.Text.Length > 20)
                     {
-                        label1.Text = label1.Text.Substring(20);
+                        label1.Text = label1.Text.Substring(0,20);
                     }
                     label2.Text = op;
                     enter.Text = "0";
@@ -349,7 +349,7 @@ namespace cal
             enter.Text = res.ToString();
             if (enter.Text.Length > 20)
             {
-                enter.Text = enter.Text.Substring(20);
+                enter.Text = enter.Text.Substring(0,20);
             }
         }
 
@@ -396,7 +396,7 @@ namespace cal
             enter.Text = res.ToString();
             if (enter.Text.Length > 20)
             {
-                enter.Text = enter.Text.Substring(20);
+                enter.Text = enter.Text.Substring(0,20);
             }
         }
         //  1/x
@@ -620,7 +620,7 @@ namespace cal
                     enter.Text = res.ToString();
                     if (enter.Text.Length > 20)
                     {
-                        enter.Text = enter.Text.Substring(20);
+                        enter.Text = enter.Text.Substring(0,20);
                     }
                     break;
                 case 4:
@@ -661,7 +661,7 @@ namespace cal
                     enter.Text = res.ToString();
                     if (enter.Text.Length > 20)
                     {
-                        enter.Text = enter.Text.Substring(20);
+                        enter.Text = enter.Text.Substring(0,20);
                     }
                     break;
                 case 5:
